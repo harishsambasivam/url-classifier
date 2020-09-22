@@ -1,0 +1,17 @@
+body{
+    background-color: #282C34;
+    color:wheat;
+    padding:1em;
+    margin:1em;
+}
+
+
+button{
+    margin-top: 1em;
+    background-color: transparent;
+    border:1px wheat solid;
+    border-radius: 5px;
+    color:wheat;
+    padding:0.5em 1em;
+}
+

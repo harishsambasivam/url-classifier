@@ -1,0 +1,35 @@
+<mat-toolbar color="accent" id="navbar">
+<mat-toolbar-row>
+    <span>phisherman</span>
+    <span class="example-spacer"></span>
+    <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">verified_user</mat-icon>
+  </mat-toolbar-row>
+</mat-toolbar>
+<div class="container__lander flex">
+  <div class="brand flex">
+      <img src="../assets/Capture.PNG" id="brand-logo" alt="logo">
+      <h1 class="brand-name">phisherman</h1>
+  </div>
+  <p class="explaining-text">
+    Analyze suspicious URLs to detect types of malware, automatically share them <br> with the security community
+  </p>
+
+<form #form="ngForm" class="form-group">
+    <mat-form-field appearance="outline" class="search-formfield">
+        <mat-label>URL to check</mat-label>
+        <input matInput ngModel class="form-control" name="url" placeholder="Placeholder">
+        <mat-icon class="check-button" type="button" matSuffix matTooltip="Check" (click)="onSubmit(form.value)">verified_user</mat-icon>
+      </mat-form-field>
+      
+</form>
+<div class="flex result-container">
+  <i class="material-icons" id="result" [ngClass]="{'redText': phish, 'greenText': phish}">
+    {{resultemoji}}
+    </i>
+    <b>{{result_message}}</b>
+</div>
+
+<p id="terms_conditions">
+  By submitting your file to phisherman you are asking phisherman to share your submission with the <br>  security community and agree to our Terms of Service and Privacy Policy. Learn more.
+</p>
+</div>

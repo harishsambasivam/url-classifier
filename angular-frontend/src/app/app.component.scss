@@ -1,0 +1,75 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  #navbar{
+    font-family: 'Gloria Hallelujah', ;
+  }
+  .container__lander{
+      min-height:88vh;
+      flex-direction: column;
+      margin:0 8em;
+  } 
+
+ #terms_conditions{
+   margin-top:auto;
+  font-family: 'Gloria Hallelujah', ;
+   font-size:0.7em;
+   margin-bottom:1em;
+ }
+.brand{
+  margin-top:10vh;
+
+}
+  .brand-name{
+    font-family: 'Gloria Hallelujah', ;
+    margin-left:1em;
+  }
+
+
+.flex{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.result-container{
+  font-family: 'Gloria Hallelujah', ;
+  flex-direction: column;
+}
+
+#result{
+  font-size:5em;
+}
+
+.greenText{
+  color:green;
+}
+
+.redText{
+  color:red;
+}
+
+  .check-button{
+    cursor: pointer;
+  }
+  .explaining-text{
+    font-family: 'Gloria Hallelujah', ;
+    padding:3em;
+    text-align: center;
+  }
+
+  #brand-logo{
+    max-height:20vh;
+    max-width: 20vw;
+  }
+    .search-formfield{
+      width:60vh;
+    }
+
+  button{
+      margin-left:1em;
+    //   height:
+    padding:0.6em;
+  }
+
+  

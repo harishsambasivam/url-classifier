@@ -1,0 +1,32 @@
+{
+  "name": "Phishalyzer",
+  "version": "1.0",
+  "description": "Detect phising websites with ML super powers!",
+  "manifest_version": 2,
+  "icons": { "128": "icon_128.png" },
+  "browser_action": {
+    "default_icon": "icon_128.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "notifications",
+    "http://*/",
+    "https://*/",
+    "https://www.github.com/",
+    "https://github.com/harishsambasivam/tfjs-classifier/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["tf.min.js", "content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "model/*",
+    "https://github.com/harishsambasivam/tfjs-classifier/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
