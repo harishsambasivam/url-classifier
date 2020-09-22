@@ -1,7 +1,7 @@
 # URL Classifier using 1D CNN
 
 Phish Recon is a URL classifier which use `1D CNN` for classification. We converted `keras model` to `tensorflowJS model` and predicting the URL in browser itself using tensorFlowJS.
-Previously we tried some machine learning techniques (click here for code)[https://github.com/harishsambasivam/url-classifier/tree/master/flask(random%20forest%20classifier)] and decided to use 1D CNN based on classification metrices.
+Previously we tried some machine learning techniques [click here for code](https://github.com/harishsambasivam/url-classifier/tree/master/flask(random%20forest%20classifier)) and decided to use 1D CNN based on classification metrices.
 
 - [x] [Classifier Notebook in Kaggle](https://www.kaggle.com1cnn-url-classification)
 - [x] [Backend flask server](https://www.kaggle.comurl-classifier-backend)
