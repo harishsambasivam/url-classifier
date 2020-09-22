@@ -16,9 +16,9 @@ Previously we tried some machine learning techniques [click here for code](https
 
 Paper is published on  `IJCRT` Journal [Click here to read](https://github.com/harishsambasivam/url-classifier/blob/master/IJCRT2009235.pdf)
 
-Teammates:
--[x] Venkataramanan M
--[x] suraj B
+Teammates:  
+- [x] Venkataramanan M
+- [x] suraj B
 
 Our special thanks of gratitude to our project guide `Ms.T.Veni Priya M.tech.,ph.D` who gave us the golden opportunity to do this wonderful project on the topic (URL Classifier), which also helped me in doing a lot of Research and i came to know about so many new things.
 
